@@ -1,0 +1,171 @@
+
+
+@import url("./pc-reset.css");
+
+
+#title{
+    width: 100vw;
+    height: 280px;
+}
+.title-img img {
+    width: 100vw;
+    height: 280px;
+    margin-top: 90px;
+    object-fit: cover;
+}
+
+.title-img h1 {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Noto Sans KR',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.nav-implant{
+    position: relative;
+}
+
+.nav-implant ul{
+    position: absolute;
+    display: flex;
+    bottom: 3px;
+    width: 100%;
+}
+
+.nav-implant ul li {
+    width: calc(100% / 2);
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.nav-implant .on {
+    background: rgba(26, 160, 165, 0.9);
+}
+main{
+    width: 100vw;
+    height: 1350px;
+    padding-top: 90px;
+}
+main h2{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+   padding-top: 80px;
+   padding-bottom: 5px;
+    margin-bottom: 100px;
+}
+main > p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+main section{
+    min-width: 1440px;
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main section .row{
+    width: 460px;
+    height: 388px;
+}
+main section .row img{
+    width: 460px;
+    height: 268px;
+}
+main section .row article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+main section .row article h6{
+    font-size: 18px;
+}
+main section .row article p{
+    font-size: 16px;
+    color: #999;
+}
+.row hr{
+    margin: 0 15px;
+}
+main section .row p{
+    font-size: 16px;
+    padding: 10px 20px;
+    /*
+    글자가 지정 width값 이상으로 넘어갈시 ... 표시 해주는 코드 현재는 html .row p태그 안에 넣을 내용이 없어 생략
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;*/
+}
+
+.search-box{
+width: 1440px;
+height: 200px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* outline: 2px solid red; */
+}
+
+.search-box ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-box ul li{
+    position: relative;
+    height: 20px;
+    padding-right: 7px;
+    padding-left: 5px;
+    border-right: 1px solid #333;
+}
+.search-box ul li:nth-child(2){
+    font-weight: 700;
+}
+.search-box ul li:last-child{
+    border: 0;
+}
+.search-box ul li .bi{
+    font-size: 16px;
+}
+.input-box{
+    position: relative;
+}
+.search-box input{
+    width: 460px;
+    height: 42px;
+    padding: 20px;
+}
+.search-box .input-box .bi{
+    position: absolute;
+    font-size: 18px;
+    color: #999;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+}

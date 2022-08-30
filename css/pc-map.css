@@ -1,0 +1,128 @@
+@import url("./pc-reset.css");
+
+#title{
+    width: 100vw;
+    height: 280px;
+}
+
+.title-img img {
+    width: 100vw;
+    height: 280px;
+    margin-top: 90px;
+    object-fit: cover;
+}
+
+.title-img h1 {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Noto Sans KR',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.nav-implant{
+    position: relative;
+}
+
+.nav-implant ul{
+    position: absolute;
+    display: flex;
+    bottom: 3px;
+    width: 100%;
+}
+
+.nav-implant ul li {
+    width: calc(100% / 2);
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav-implant .on {
+    background: rgba(26, 160, 165, 0.9);
+}
+
+main{
+    width: 100vw;
+    height: 1150px;
+    margin-top: 70px;
+}
+
+main h2{
+    width: 110px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    padding-top: 100px;
+}
+
+main > p{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main iframe{
+    width: 100%;
+    height: 450px;
+}
+
+main section{
+    width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+main section article{
+    display: flex;
+    justify-content: space-between;
+    height: calc(300px / 2);
+    width: 500px;
+    line-height: 50px;
+}
+
+main section article h4{
+    color: var(--main-color);
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+main section article p{
+    text-align: right;
+}
+
+/* main section article p span{
+} */
+
+.article-right{
+    height: 300px;
+}
+
+.article-right .p-left{
+    text-align: left;
+}
+
+.article-right p span{
+    color: var(--main-color);
+    font-weight: 500;
+}
