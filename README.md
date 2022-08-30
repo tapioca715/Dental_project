@@ -1,6 +1,6 @@
 # 사람그리고치과 반응형 웹 사이트
 > 리디자인 사이트 바로가기
-> 기존 페이지
+https://tapioca715.github.io/Dental_project/
 ## 소개
     사람그리고치과 웹사이트 리디자인 페이지
 ![image](https://user-images.githubusercontent.com/106294039/187365917-b0f6759f-ac0b-48fb-a52c-54a4e4bafc35.png)
