@@ -6,13 +6,15 @@ https://tapioca715.github.io/Dental_project/
 ![image](https://user-images.githubusercontent.com/106294039/187365917-b0f6759f-ac0b-48fb-a52c-54a4e4bafc35.png)
 
 ## 작업 내용
--  figma를 이용한 시안제작 및 프로토타이핑
--  Hoverable Dropdown Menu / Mobile Toggle Menu 구성  
--  Swiper를 이용한 배너 슬라이드
--  Flex layout
--  Flxed Menu, Side Menu
--  Detail Page Tab 구성
--  Smooth page scroll (scroll-behavior: smooth)
+- figma를 이용한 시안제작 및 프로토타이핑
+- Nav Menu
+  (Hoverable Dropdown Menu / Mobile Toggle Menu) 
+  구성
+- Swiper를 이용한 배너 슬라이드
+- Flex layout
+- Side Menu (Flxed Menu)
+- Detail Page Tab 구성
+- Smooth page scroll (scroll-behavior: smooth)
 
 ## 라이브러리
 - JQuery
