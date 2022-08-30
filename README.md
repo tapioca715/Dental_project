@@ -15,6 +15,7 @@ https://tapioca715.github.io/Dental_project/
 - Side Menu (Flxed Menu)
 - Detail Page Tab 구성
 - Smooth page scroll (scroll-behavior: smooth)
+- Breadcrumb
 
 ## 라이브러리
 - JQuery
