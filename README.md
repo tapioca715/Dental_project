@@ -1,9 +1,9 @@
 # 사람그리고치과 반응형 웹 사이트
-
+> 리디자인 사이트 바로가기
+> 기존 페이지
 ## 소개
     사람그리고치과 웹사이트 리디자인 페이지
-<img width="200" alt="image" src="[https://user-images.githubusercontent.com/106294039/185303222-9a8ad71a-48ee-4b48-87c2-b4462ed0795c.png]>
-
+![image](https://user-images.githubusercontent.com/106294039/187365917-b0f6759f-ac0b-48fb-a52c-54a4e4bafc35.png)
 
 ## 작업 내용
 -  figma를 이용한 시안제작 및 프로토타이핑
