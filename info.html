@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사람그리고치과</title>
+    <!-- pc-info.css -->
+    <link rel="stylesheet" href="css/pc-info.css" media="screen and (min-width: 768px)">
+    <!-- mobile-info.css -->
+    <link rel="stylesheet" href="css/mobile-info.css" media="screen and (max-width: 767px)">
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- main.js -->
+  <script src="js/main.js"></script>
+</head>
+
+<body id="info">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <i class="bi bi-list gnb-toggle"></i>
+        <div id="gnb">
+            <article>
+                <h3>H U M A N & D E N T A L  C L I N I C</h3>
+                <i class="bi bi-x gnb-close"></i>
+            </article>
+            <ul>
+                <a href="./info.html"><li>병원소개</li></a>
+                <a href="./clinic.html"><li>임플란트</li></a>
+                <a href="./clinic.html"><li>치아교정</li></a>
+                <a href="./clinic.html"><li>미백/성형</li></a>
+                <a href="./community.html"><li>병원소식</li></a>
+                <a href="./map.html"><li>진료안내</li></a>
+            </ul>
+        </div>
+        <nav>
+            <ul class="depth1">
+                <li>병원소개
+                    <ul class="depth2">
+                        <li><a href="./info.html">의료진소개</a></li>
+                    </ul>
+                </li>
+                <li>임플란트
+                    <ul class="depth2">
+                        <li><a href="./clinic.html">베이직 임플란트</a></li>
+                        <li><a href="./clinic.html">레이저 임플란트</a></li>
+                        <li><a href="./clinic.html">당일 즉시 임플란트 </a></li>
+                        <li><a href="./clinic.html">틀니 임플란트</a></li>
+                    </ul>
+                </li>
+                <li>치아교정
+                    <ul class="depth2">
+                        <li><a href="./clinic.html">수술교정</a></li>
+                        <li><a href="./clinic.html">설측교정</a></li>
+                        <li><a href="./clinic.html">성인교정</a></li>
+                    </ul>
+                </li>
+                <li>미백/성형
+                    <ul class="depth2">
+                        <li><a href="./clinic.html">치아미백</a></li>
+                        <li><a href="./clinic.html">치아성형</a></li>
+                    </ul>
+                </li>
+                <li>병원소식
+                    <ul class="depth2">
+                        <li><a href="./community.html">공지사항</a></li>
+                        <li><a href="./community.html">치료후기</a></li>
+                    </ul>
+                </li>
+                <li>진료안내
+                    <ul class="depth2">
+                        <li><a href="./map.html">진료시간</a></li>
+                        <li><a href="./map.html">오시는길</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="info_container">
+        <section id="title">
+            <div class="title-img">
+                <img src="images/info_background.jpeg" alt="title-img">
+                <h1>병원소개</h1>
+                <div class="nav-info">
+                    <ul>
+                        <li onclick="scrollclinic()" class="tab_clinic on">병원소개</li>
+                        <li onclick="scrolldoctor()" class="tab_doctor">의료진소개</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="breadcrumb">
+            <p>홈&nbsp&nbsp<i class="bi bi-chevron-right"></i><span class="strong">&nbsp병원소개&nbsp</span></p>
+        </section>
+        <div class="info_clinic">
+            <h2>최첨단 의료장비</h2>
+            <!-- main -->
+
+            <div class="info_clinic_background">
+
+                <div class="info_col">
+                    <h3>3차원 디지털 CT</h3>
+                    <p>기존 2차원적 치과 X-RAY보다 3,000배 이상의 정확성, 정밀성을 가집니다.<br>
+                        보이지 않았던 부위까지 선명하게 진단하여 정확한 시술을 할 수 있습니다.
+                    </p>
+                    <img src="images/info-system_1.jpeg" alt="CT">
+                </div>
+                <div class="info_col">
+                    <h3>INTRAORAL CAMERA - EINSTEIN STELLA
+                    </h3>
+                    <p>국내 최초 치과 전용 무선이동형 엑스레이로 임플란트와 신경치료 중 환자분이 이동하지않고<br>
+                        편리하고 신속하게 엑스레이를 찍을 수 있습니다.
+                    </p>
+                    <img src="images/info-system_2.jpeg" alt="X-ray">
+                </div>
+                <div class="info_col">
+                    <h3>INTRAORAL CAMERA - EINSTEIN STELLA
+                    </h3>
+                    <p>무선이동형 구강카메라로 쉽고 빠르게 진단 시의 상태,<br>
+                        치료과정 및 결과를 보여드림으로써 환자분들의 이해를 도울 수 있습니다.</p>
+                    <img src="images/info-system_3.jpeg" alt=" CAMERA">
+                </div>
+                <div class="info_col">
+                    <h3>교정정밀분석 - V-CEPH</h3>
+                    <p>교정 진단 및 분석 프로그램으로정확하고 정밀한 분석이 가능합니다.<br>
+                        치료 후 모습을 morphing할 수있어 환자분들의 이해를 도울 수 있습니다.</p>
+                    <img src="images/info-system_4.jpeg" alt="V-CEPH">
+                </div>
+            </div>
+        </div>
+
+        <div class="info_doctor">
+            <h2>의료진소개</h2>
+            <div class="doctor_col">
+                <ul>
+                    <li><img src="images/info_doctor_1.jpeg" alt="doctor_picture"></li>
+                    <li class="doctor_box">
+                        <div class="doctor_box_container">
+                            <h4>대표원장/전문의<span>&nbsp;송경호</span></h4>
+                            <p class="comment">당신의 "아는 치과"가 되겠습니다.</p>
+                            <p>前 OO대학교 치과대학 교수<br>
+                                OO대학교 치과병원 통합임상진료센터패컬티<br>
+                                보건복지부 장관상 수상<br>
+                                마르퀴스 후즈후 국제인명사전 등재 </p>
+                            <p class="tag">#예방/구강관리<br>
+                                #심미수복치료<br>
+                                #비침습적치주치료</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="doctor_col">
+                <ul>
+                    <li class="doctor_box">
+                        <div class="doctor_box_container">
+                            <h4>보철과원장/전문의<span>&nbsp;이미라</span></h4>
+                            <p class="comment">한 사람 한 사람을 위해 고민하겠습니다.</p>
+                            <p>OO대학교 학사/OO대학교 치의학대학원 석사<br>
+                                OO대학교 치과병원 통합임상진료센터패컬티<br>
+                                OO대학교 치과병원 전공의 수료<br>
+                                보건복지부 인증 통합치의학과 전문의
+                            </p>
+                            <p class="tag">#보존/근관치료<br>
+                                #심미/보철치료<br>
+                                #임플란트 수술</p>
+                        </div>
+                    </li>
+                    <li> <img src="images/info_doctor_2.jpeg" alt="doctor_picture"></li>
+                </ul>
+            </div>
+            <div class="doctor_col">
+                <ul>
+                    <li><img src="images/info_doctor_3.jpeg" alt="doctor_picture"></li>
+                    <li class="doctor_box">
+                        <div class="doctor_box_container">
+                            <h4>교정과원장/전문의<span>&nbsp;조은희</span></h4>
+                            <p class="comment">최선의 치료 계획과 철저한 소독, 최첨단의 장비<br>
+                                기본들을 지켜나가겠습니다. </p>
+                            <p>보건복지부 인증 치과교정과 전문의<br>
+                                보건복지부 인증 통합치의학과 전문의<br>
+                                US Cincinnati Children's Hospital Dept. Of Orthodontics 연수
+                            </p>
+                            <p class="tag">#수술교정 / 설측교정 / 성인교정<br>
+
+                                #성장발달 교정<br>
+
+                           #소아청소년과 성장교정 </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <img src="images/footer.png" alt="footer">
+        <p>사업자 등록번호 144-90-00465   대표 송경호   TEL 031-8017-2080   FAX 031-8017-2081 <br>
+        경기도 성남시 분당구 삼평동 670번지 유스페이스 1동 306호 <br><br>
+            
+        <strong>COPYRIGHT(c) Human Dental Clinic.LTD. ALL RIGHTS RESERVERD.</strong></p>
+        <div class="sns"><a href="./"><i class="bi bi-instagram"></i></a>
+        <a href="./"><i class="bi bi-twitter"></i></a></div>
+    </footer>
+</body>
+
+</html>

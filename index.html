@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사람그리고치과</title>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- pc-main.css -->
+    <link rel="stylesheet" href="css/pc-main.css" media="screen and (min-width: 768px)">
+    <!-- mobile-main.css -->
+    <link rel="stylesheet" href="css/mobile-main.css" media="screen and (max-width: 767px)">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- main.js -->
+    <script src="js/main.js"></script>
+</head>
+
+<body id="home">
+    <header>
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        <i class="bi bi-list gnb-toggle"></i>
+        <div id="gnb">
+            <article>
+                <h3>H U M A N & D E N T A L C L I N I C</h3>
+                <i class="bi bi-x gnb-close"></i>
+            </article>
+            <nav class="toggle-menu">
+                <a href="./info.html">병원소개</a>
+                <a href="./clinic.html">임플란트</a>
+                <a href="./clinic.html">치아교정</a>
+                <a href="./clinic.html">미백/성형</a>
+                <a href="./community.html">병원소식</a>
+                <a href="./map.html">진료안내</a>
+            </nav>
+        </div>
+        <nav class="mainMenu">
+            <a href="#">병원소개</a>
+            <a href="#">임플란트</a>
+            <a href="#">치아교정</a>
+            <a href="#">미백/성형</a>
+            <a href="#">병원소식</a>
+            <a href="#">기타</a>
+        </nav>
+    </header>
+    <div class="subMenu">
+        <nav class="subMenuWrap">
+            <ul>
+                <li><a href="./info.html">의료진소개</a></li>
+            </ul>
+            <ul>
+                <li><a href="./clinic.html">베이직 임플란트</a></li>
+                <li><a href="./clinic.html">레이저 임플란트</a></li>
+                <li><a href="./clinic.html">당일 즉시 임플란트 </a></li>
+                <li><a href="./clinic.html">틀니 임플란트</a></li>
+            </ul>
+            <ul>
+                <li><a href="./clinic.html">수술교정</a></li>
+                <li><a href="./clinic.html">설측교정</a></li>
+                <li><a href="./clinic.html">성인교정</a></li>
+            </ul>
+            <ul>
+                <li><a href="./clinic.html">치아미백</a></li>
+                <li><a href="./clinic.html">치아성형</a></li>
+            </ul>
+            <ul>
+                <li><a href="./community.html">공지사항</a></li>
+                <li><a href="./community.html">치료후기</a></li>
+            </ul>
+            <ul>
+                <li><a href="./map.html">진료시간</a></li>
+                <li><a href="./map.html">오시는길</a></li>
+            </ul>
+        </nav>
+    </div><!-- //END subMenu -->
+
+    <!-- PC Main Banner -->
+    <section id="main-visual" class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/main-banner/main-visual01.png" alt="main-visual01"> </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/main-banner/main-visual02.png" alt="main-visual02"> </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/main-banner/main-visual03.png" alt="main-visual03"> </a>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+
+
+    <!-- 모바일용 메인비주얼 -->
+    <section id="main-visual-mobile" class="container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="images01" style="width: 100vw;" src="./images/main-banner/mobile-main-visual01.jpeg"
+                        alt="mobile-main-visual">
+                    <div class="text">
+                        <h2>사람그리고치과만의
+                            <br>
+                            섬세한 스마일 교정
+                        </h2>
+                        <p>———</p>
+                        <h3>20여 년의 교정 치료 경력으로
+                            <br>
+                            여러분의 환한 미소를 되찾아 드립니다.
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img style="width: 100vw;" src="./images/main-banner/mobile-main-visual02.jpeg"
+                        alt="mobile-main-visual">
+                    <div class="text">
+                        <h2>대한치과협회 소속
+                            <br>
+                            공인 전문의
+                        </h2>
+                        <p>———</p>
+                        <h3>분과별 전문의와 함께 협진 중이며
+                            <br>
+                            마취과 전문의가 여러분의 건강을
+                            책임집니다.
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img style="width: 100vw;" src="./images/main-banner/mobile-main-visual03.jpeg"
+                        alt="mobile-main-visual">
+                    <div class="text">
+                        <h2>최첨단 의학기술
+                            <br>
+                            의료장비
+                        </h2>
+                        <p>———</p>
+                        <h3>20여 년의 교정 치료 경력으로
+                            <br>
+                            첨단 디지털 의료장비를 이용해
+                            <br>
+                            여러분께 보다 효과적이고 효율적인
+                            <br>
+                            치료 경험을 선사합니다.
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    <div id="fixed-menu">
+        <div class="col">
+            <div class="fixed-container">
+                <img src="./images/fixed01.png" alt="#">
+                <p>온라인 예약</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="fixed-container">
+                <img src="./images/fixed02.png" alt="#">
+                <p>네이버 예약</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="fixed-container">
+                <img src="./images/fixed03.png" alt="#">
+                <p>카카오톡 상담</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <section id="dental-clinic" class="container-">
+        <div class="clinic-containers">
+
+            <div class="container01">
+
+                <div class="clinic-box box01">
+                    <!-- <img src="./images/dental-clinic 01.jpg" alt="1"> -->
+                    <div class="text">
+                        <p>CLINIC</p>
+                        <h3>임플란트</h3>
+                        <a href="#clinic">바로가기 ▶</a>
+                    </div>
+                </div>
+
+                <div class="clinic-box box02">
+                    <!-- <img src="./images/dental-clinic 02.jpg" alt="2"> -->
+                    <div class="text">
+                        <p>CLINIC</p>
+                        <h3>치아교정</h3>
+                        <a href="#clinic">바로가기 ▶</a>
+                    </div>
+                </div>
+            </div>
+            <!--container-->
+
+            <div class="container02">
+                <div class="clinic-box box03">
+                    <!-- <img src="./images/dental-clinic 03.jpg" alt="3"> -->
+                    <div class="text">
+                        <p>CLINIC</p>
+                        <h3>미백/성형</h3>
+                        <a href="#clinic">바로가기 ▶</a>
+                    </div>
+                </div>
+
+                <div class="clinic-box box04">
+                    <!-- <img src="./images/dental-clinic 04.jpg" alt="4"> -->
+                    <div class="text">
+                        <p>CLINICAL GUIDANCE</p>
+                        <h3>진료안내
+                        </h3>
+                        <a href="#map">바로가기 ▶</a>
+                    </div>
+                </div>
+            </div>
+            <!--container-->
+        </div>
+    </section>
+
+
+    <!-- 피씨용 의사소개 -->
+    <section id="doctor-about" class="container-">
+        <div class="col about-text">
+            <h2>사람그리고치과 <br>
+                의료진을 소개합니다.
+            </h2>
+            <p>사람그리고치과 분야별 의료진이 한분의 환자를 위해
+                처음부터 끝까지 가족처럼 함께합니다.
+            </p>
+            <div class="about-btn"><a href="#">의료진 소개 자세히 보기</a>
+            </div>
+        </div>
+        <!--about-text-->
+        <div class="col about-img">
+            <img src="./images/doctor-about.png" alt=".">
+        </div>
+    </section>
+
+
+    <!-- 모바일용 의사소개 -->
+    <section id="mobile-doctor-about" class="container-">
+        <div class="col about-text">
+            <h2>사람그리고치과 <br>
+                의료진을 소개합니다.
+            </h2>
+            <p>사람그리고치과 분야별 의료진이 한분의 환자를 위해
+                처음부터 끝까지 가족처럼 함께합니다.
+            </p>
+        </div>
+        <div class="col about-box">
+            <div class="about-btn">
+                <a href="#">의료진 소개 자세히 보기</a>
+            </div>
+            <div class="about-img">
+                <img src="./images/doctor-about.png" alt=".">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="medical" class="container">
+        <div class="container-" data-aos="fade-up" data-aos-duration="3000">
+            <div class="medical-title container-">
+                <h2>
+                    <p>———</p>
+                    철저하게 엄선된 의료장비
+                </h2>
+            </div>
+
+            <div class="medical-container-">
+                <div class="medical-container">
+                    <div class="col">
+                        <img src="./images/medical01.png" alt=".">
+                        <div class="text">
+                            <h3>최적의 환경</h3>
+                            <p>
+                                대기실 공기청정기 및 시스템에어컨과 철저한 환기시설로 치과 내 환경을 최적으로 유지하고 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/medical02.png" alt=".">
+                        <div class="text">
+                            <h3>최신식 정밀 장비</h3>
+                            <p>
+                                교정 진단 및 분석 프로그램으로정확하고 정밀한 분석이 가능합니다. 치료 후 모습을 morphing할 수있어 환자분들의 이해를 도울 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/medical03.png" alt=".">
+                        <div class="text">
+                            <h3>타의 추종을 불허하는 정확도</h3>
+                            <p>
+                                기존 2차원적 치과 X-RAY보다 3,000배 이상의 정확성, 정밀성을 가집니다.
+                                보이지 않았던 부위까지 선명하게 진단하여 정확한 시술을 할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="medical-btn"><a href="#">자세히 보기</a></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- 모바일용 메디컬 -->
+    <section id="medical-mobile" class="container">
+        <div class="medical-title">
+            <h2>
+                <p>———</p>
+                철저하게 엄선된 의료장비
+            </h2>
+        </div>
+
+        <div class="medical-container-">
+            <div class="medical-container">
+                <div class="col">
+                    <img src="./images/mobile-medical01.png" alt=".">
+                    <div class="text">
+                        <h3>최적의 환경</h3>
+                        <p>
+                            대기실 공기청정기 및 시스템에어컨과 철저한 환기시설로 치과 내 환경을 최적으로 유지하고 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/mobile-medical02.png" alt=".">
+                    <div class="text">
+                        <h3>최신식 정밀 장비</h3>
+                        <p>
+                            교정 진단 및 분석 프로그램으로정확하고 정밀한 분석이 가능합니다. 치료 후 모습을 morphing할 수있어 환자분들의 이해를 도울 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/mobile-medical03.png" alt=".">
+                    <div class="text">
+                        <h3>타의 추종을 불허하는 정확도</h3>
+                        <p>
+                            기존 2차원적 치과 X-RAY보다 3,000배 이상의 정확성, 정밀성을 가집니다.
+                            보이지 않았던 부위까지 선명하게 진단하여 정확한 시술을 할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section id="sub-banner" class="container">
+        <div class="col container-">
+            <div class="text" data-aos="fade-right" data-aos-delay="200">
+                <p>
+                    <span>❝&nbsp;&nbsp;</span>
+                    새로운 치료 방식과 재료, 기구 등에 뒤떨어지지 않도록 언제나 공부하며, <br>
+                    새로운 것을 열린 마음으로 받아들이는 젊은 치과가 되겠습니다.
+                    <span>&nbsp;&nbsp;❞</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommend" class="container">
+        <div class="recommend-title">
+            <h2>사람그리고치과의 클리닉</h2>
+            <p>이런 분들께 추천합니다.</p>
+        </div>
+        <div class="recommend-box">
+            <a href="#">
+                <div class="col">
+                    <h3>임플란트</h3>
+                    <p>믿을 수 있는 치료를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <h3>교정</h3>
+                    <p>심미적인 교정장치를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <h3>미백/성형</h3>
+                    <p>미적 변화를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <h3>치아살리기</h3>
+                    <p>죽은 치아를 <br>
+                        살리고 싶으신 분</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- 모바일recommend -->
+    <section id="recommend-mobile" class="container">
+        <div class="recommend-title">
+            <h2>사람그리고치과의 클리닉</h2>
+            <p>이런 분들께 추천합니다.</p>
+        </div>
+        <div class="recommend-box">
+            <a href="#">
+                <div class="col">
+                    <h3>임플란트</h3>
+                    <p>믿을 수 있는 치료를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <h3>교정</h3>
+                    <p>심미적인 교정장치를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+        </div>
+        <!--recommend-box-->
+
+        <div class="recommend-box-">
+            <a href="#">
+                <div class="col">
+                    <h3>미백/성형</h3>
+                    <p>미적 변화를 <br>
+                        원하시는 분</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <h3>치아살리기</h3>
+                    <p>죽은 치아를 <br>
+                        살리고 싶으신 분</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="academy" class="container">
+        <div class="academy-box">
+            <a href="#"><img src="./images/academy-logo1.png" alt="academy-logo"></a>
+            <a href="#"><img src="./images/academy-logo2.png" alt="academy-logo"></a>
+            <a href="#"><img style="margin-top: 8px;" src="./images/academy-logo3.png" alt="academy-logo"></a>
+            <a href="#"><img src="./images/academy-logo4.png" alt="academy-logo"></a>
+            <a href="#"><img src="./images/academy-logo5.png" alt="academy-logo"></a>
+        </div>
+    </section>
+
+
+    <section id="sub-footer" class="container">
+        <div class="time">
+            <h2>진료시간</h2>
+
+            <div class="time-text">
+                <p>평일</p>
+                <p style="font-weight: 600;">10:30 AM ~ 7:30 PM</p>
+            </div>
+
+            <div class="time-text">
+                <p>야간진료</p>
+                <p style="font-weight: 600;">- 9:00 PM 월/수</p>
+            </div>
+
+            <div class="time-text">
+                <p>점심시간</p>
+                <p style="font-weight: 600;">2:00 PM - 3:00 PM</p>
+            </div>
+
+            <div class="time-text">
+                <p>토요일(2,4th)</p>
+                <p style="font-weight: 600;">10:00AM - 2:00 PM</p>
+            </div>
+        </div>
+        <!--time-->
+
+        <div class="call">
+            <h2>전화문의</h2>
+            <h2>031-8017-2080</h2>
+            <a href="#">
+                <div class="call-btn">
+                    <p>상담 신청하기</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="images/footer.png" alt="footer">
+        <p>사업자 등록번호 144-90-00465 대표 송경호 TEL 031-8017-2080 FAX 031-8017-2081 <br>
+            경기도 성남시 분당구 삼평동 670번지 유스페이스 1동 306호 <br>
+
+            <strong>COPYRIGHT(c) Human Dental Clinic.LTD. ALL RIGHTS RESERVERD.</strong>
+        </p>
+        <div class="sns"><a href="./"><i class="bi bi-instagram"></i></a>
+            <a href="./"><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

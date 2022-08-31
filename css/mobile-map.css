@@ -1,0 +1,139 @@
+@import url('./mobile-reset.css');
+
+#title{
+    width: 100vw;
+    height: 96px;
+}
+.title-img{
+    width: 100vw;
+    height: 96px;
+    position: relative;
+}
+.title-img img {
+    width: 100vw;
+    height: 96px;
+    margin-top: 70px;
+
+}
+
+.title-img h1 {
+    position: absolute;
+    top: calc(50% + 70px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.nav-implant{
+    position: relative;
+}
+
+.nav-implant ul{
+    /* position: absolute;
+    display: flex;
+    bottom: 3px;
+    width: 100%; */
+    display: none;
+}
+
+.nav-implant ul li {
+    /* width: calc(100% / 2);
+    height: 70px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.nav-implant .on {
+    background: rgba(26, 160, 165, 0.9);
+}
+
+main{
+    width: 100vw;
+    height: 1010px;
+    margin-top: 70px;
+}
+
+main h2{
+    width: 110px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+
+main > p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main iframe{
+    width: 100%;
+    height: 200px;
+}
+
+main section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+main section .article-box{
+    display: flex;
+    flex-direction: column;
+}
+main section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+main section article h4{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+main section article p{
+    font-size: 14px;
+}
+
+/* main section article p span{
+} */
+
+.article-right{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.article-right h4{
+    width: 100vw;
+    text-align: center;
+}
+.article-right .p-left{
+    text-align: left;
+    margin-right: 20px;
+}
+.article-right p{
+    text-align: right;
+}
+.article-right p span{
+    color: var(--main-color);
+    font-weight: 500;
+}

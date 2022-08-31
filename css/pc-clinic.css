@@ -1,0 +1,243 @@
+@import url('./pc-reset.css');
+
+/* clinic.css */
+
+#title{
+    width: 100vw;
+    height: 280px;
+}
+
+.title-img img {
+    width: 100vw;
+    height: 280px;
+    margin-top: 90px;
+    object-fit: cover;
+}
+
+
+.title-img h1 {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+main{
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 240px 100px 240px;
+    margin-top: 90px;
+}
+.nav-implant{
+    position: relative;
+}
+
+.nav-implant ul{
+    position: absolute;
+    display: flex;
+    bottom: 3px;
+    width: 100%;
+}
+
+.nav-implant ul li {
+    width: calc(100% / 4);
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.nav-implant .on {
+    background: rgba(26, 160, 165, 0.9);
+}
+
+.plus {
+    height: 35px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.plus-box{
+    margin: 0 auto;
+    min-width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+.large {
+    font-size: 20px;
+    line-height: 29px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1 h2 {
+    height: 50px;
+    margin-top: 78px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
+    color: #1AA0A5;
+    border-bottom: 2px solid #1AA0A5;
+}
+
+.container1 .strengths {
+    width: 1440px;
+    height: 293px;
+    padding: 55px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    background: #F8F8F8;
+    border-top: 1px solid #1AA0A5;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #333333;
+    text-align: center;
+}
+
+.container1 .strengths strong {
+    color: #1AA0A5;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2-box{
+    display: flex;
+    margin-bottom: 80px;
+}
+.container2-box article{
+    margin-left: 130px;
+}
+.container2 h2 {
+    height: 52px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
+
+    color: #1AA0A5;
+    border-bottom: 2px solid #1AA0A5;
+}
+
+.container2 .img-clinic1 {
+    width: 476px;
+    height: 540px;
+}
+
+.clinic-process-title {
+    width: 497px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 43px;
+    color: #1AA0A5;
+}
+
+.clinic-process-text {
+    width: 497px;
+    height: 313px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.container2 .img-clinic2 {
+    width: 1260px;
+    height: 400.75px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container3 .col{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 380px;
+}
+.container3 h2 {
+    height: 52px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
+    color: #1AA0A5;
+    border-bottom: 2px solid #1AA0A5;
+}
+
+.container3 .col1 img {
+    width: 370px;
+    height: 360px;
+}
+
+.container3 .col1 p {
+    width: 394px;
+    height: 64px;
+    margin-left: 150px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.container3 .col2 p {
+    width: 430px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #333333;
+}
+
+.container3 .col2 img {
+    width: 424.95px;
+    height: 380px;
+    margin-left: 150px;
+}
+
+.container3 .col3 img {
+    width: 629px;
+    height: 249px;
+}
+
+.container3 .col3 p {
+    width: 456px;
+    height: 96px;
+    margin-left: 150px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+}
+
+span {
+    color:#1AA0A5;
+}

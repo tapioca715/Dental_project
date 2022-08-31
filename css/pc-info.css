@@ -1,0 +1,227 @@
+@import url("./pc-reset.css");
+
+#info {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#info header .bi {
+    display: none;
+}
+
+
+#title {
+    width: 100%;
+    height: 280px;
+}
+
+#info .title-img img {
+    width: 100vw;
+    height: 280px;
+    margin-top: 90px;
+}
+
+#info .title-img h1 {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    letter-spacing: 0.1rem;
+    transform: translateX(-50%);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#info .nav-info {
+    position: relative;
+}
+
+#info .nav-info ul {
+    position: absolute;
+    display: flex;
+    bottom: 3px;
+    width: 100%;
+}
+
+#info .nav-info ul li {
+    width: calc(100% / 2);
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#info .nav-info ul li:first-child {
+    border-right: none;
+}
+
+#info .nav-info .on {
+    background: rgba(26, 160, 165, 0.9);
+}
+
+#info h3,
+h2,
+h4 {
+    color: var(--main-color);
+}
+
+#info .info_clinic {
+    top: 100px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info .info_clinic h2 {
+    top: 100px;
+    margin: 75px 0;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--main-color);
+    text-align: center;
+}
+
+#info .info_clinic_background {
+    background-color: #f8f8f8;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#info .info_clinic_background .info_col {
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0px;
+}
+
+#info .info_clinic_background .info_col:nth-child(2) img {
+    width: 20%;
+}
+
+/* ----------<의료진 소개>---------- */
+#info .info_doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 의료진 소개 타이틀 */
+#info .info_doctor h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: max-content;
+    border-bottom: 2px solid var(--main-color);
+}
+
+/* 의료진 사진 */
+#info .info_doctor ul li img {
+    width: 70%;
+    min-width: 300px;
+}
+
+#info .info_doctor {
+    display: flex;
+    flex-direction: column;
+}
+
+#info .doctor_col ul {
+    display: flex;
+    margin-bottom: 150px;
+    width: 85vw;
+
+}
+
+#info .doctor_col ul li {
+    flex: 1 1;
+    justify-content: space-around;
+}
+
+#info .doctor_col ul .doctor_box {
+    width: 40vw;
+    /* height: 30rem; */
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+
+}
+
+#info .doctor_col ul .doctor_box .doctor_box_container .tag {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+#info .doctor_col ul .doctor_box .doctor_box_container span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+
+#info .doctor_col ul .doctor_box .doctor_box_container .comment {
+    color: var(--main-color);
+}
+
+#info .doctor_col .doctor_box_container {
+    position: relative;
+    border-top: 1px solid var(--main-color);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #333333;
+    background-color: #f8f8f8;
+    min-width: 450px;
+}
+
+#info .doctor_col ul .doctor_box .doctor_box_container p {
+    line-height: 40px;
+}
+
+#info .doctor_col ul .doctor_box .doctor_box_container:nth-child(1) p:nth-child(2) {
+    line-height: 30px;
+}
+
+#info .doctor_col .doctor_box .doctor_box_container {
+    padding: 20px 50px 20px 60px;
+}
+
+#info .doctor_col .doctor_box_container p {
+    padding-top: 10px;
+}
+
+#info .doctor_box:nth-child(1) {
+    margin-right: 20rem;
+}
+
+/* ------<tab event>------ */
+#info .info_container .tab_clinic.on {
+    background-color: var(--main-color);
+}
+
+#info .info_container .tab_clinic {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#info .info_container .tab_doctor.on {
+    background-color: var(--main-color);
+}
+
+#info .info_container .tab_doctor {
+    background-color: rgba(0, 0, 0, 0.5);
+}
